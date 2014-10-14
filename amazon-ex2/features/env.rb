@@ -6,7 +6,6 @@ Before do | prerequisites|
 		
 		$browser = Watir::Browser.new :chrome		
 		$browser.goto "http://www.amazon.co.uk/"
-		puts 'From Before of Env.rb '
 
 end
 
@@ -14,7 +13,6 @@ end
 After do | housekeeping|
 	sleep(5)
 	$browser.close
-
 end
 
 
